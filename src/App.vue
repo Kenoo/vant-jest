@@ -13,11 +13,11 @@ import { Button } from 'vant';
 import HelloWorld from './components/HelloWorld.vue';
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld,
-    [Button.name]: Button,
-  },
+    name: 'App',
+    components: {
+        HelloWorld,
+        [Button.name]: Button,
+    },
 };
 </script>
 

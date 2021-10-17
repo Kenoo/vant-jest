@@ -16,6 +16,7 @@ module.exports = {
     "sourceType": 'module',
   },
   "rules": {
+    "indent": ["error", 4]
   },
   "plugins": [
     'vue',
