@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test object data is right obj toMatchSnapshot 1`] = `
+Object {
+  "array": Array [
+    1,
+    2,
+    3,
+  ],
+  "asyncSquare": [Function],
+  "boolean": true,
+  "class": Bar {
+    "array": Array [
+      1,
+      2,
+      3,
+    ],
+  },
+  "number": 1234,
+  "object": Object {
+    "bar": Object {
+      "buzz": Array [
+        1,
+        2,
+        3,
+      ],
+      "fiz": 1,
+    },
+    "baz": "test",
+  },
+  "square": [Function],
+  "string": "baz",
+  "sum": [Function],
+  "symbol": Symbol(a.b.c),
+}
+`;

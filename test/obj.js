@@ -6,7 +6,7 @@ export default {
         return a * b;
     },
     async asyncSquare(a, b) {
-        const result = await a * b;
+        return await a * b; 
     },
     sum(a, b) {
         return sum(a, b);
@@ -19,14 +19,14 @@ export default {
         foo() { }
     })(),
     object: {
-        baz: 'foo',
+        baz: 'test',
         bar: {
             fiz: 1,
             buzz: [1, 2, 3],
         },
     },
     array: [1, 2, 3],
-    number: 123,
+    number: 1234,
     string: 'baz',
     boolean: true,
     symbol: Symbol.for('a.b.c'),
