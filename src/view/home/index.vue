@@ -37,7 +37,7 @@
 import {
     Row, Col, Icon, Cell, CellGroup,
 } from 'vant';
-import CommonBasicBar from '../common/nav/index.vue';
+import CommonBasicBar from '@common/nav/index.vue';
 
 export default {
     components: {
