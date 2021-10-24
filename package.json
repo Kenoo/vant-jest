@@ -45,5 +45,25 @@
     "vite": "^2.6.10",
     "vite-plugin-style-import": "^1.2.1",
     "vue-loader": "^15.9.8"
-  }
+  },
+  "description": "## Project setup ``` yarn install ```",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kenoo/vant-jest.git"
+  },
+  "keywords": [
+    "jest",
+    "vant",
+    "vue3.0"
+  ],
+  "author": "czt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kenoo/vant-jest/issues"
+  },
+  "homepage": "https://github.com/Kenoo/vant-jest#readme"
 }
