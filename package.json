@@ -6,6 +6,7 @@
     "test": "jest",
     "test-watch": "jest --watch",
     "dev": "vite",
+    "serve": "vite preview",
     "build": "vite build",
     "lint": "vue-cli-service lint"
   },
